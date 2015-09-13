@@ -1,3 +1,9 @@
 <h1>New</h1>
 
-{{message}}
+<form ng-submit="addSword()" name="newSword">
+  <label for="swordName">Sword: </label>
+    <input type="text" name="swordName" ng-model="sword.swordName" />
+  <label for="swordOwner">Owner: </label>
+    <input type="text" name="swordOwner" ng-model="sword.swordOwner" />
+    <input type="submit" value="Add Sword"></input>
+</form>
