@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Swords App</title>
   </head>
   <body>
 
     <h1>Historical Swords</h1>
 
+    <ng-view>
+
     <script type="text/javascript" src="app.js"></script>
+
+    <script type="text/javascript" src="javascript/controllers/EditController.js"></script>
+    <script type="text/javascript" src="javascript/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="javascript/controllers/NewController.js"></script>
+    <script type="text/javascript" src="javascript/controllers/ShowController.js"></script>
+
+    <script type="text/javascript" src="javascript/routes/routes.js"></script>
   </body>
 </html>
