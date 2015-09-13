@@ -1,0 +1,30 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Express server for swords app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tdkehoe/Swords-Assessment-Practice.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "swords"
+  ],
+  "author": "Thomas David Kehoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdkehoe/Swords-Assessment-Practice/issues"
+  },
+  "homepage": "https://github.com/tdkehoe/Swords-Assessment-Practice",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "monk": "^1.0.1"
+  }
+}
